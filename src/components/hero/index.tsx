@@ -10,21 +10,21 @@ export default function HeroSection() {
 
             <div className="min-h-dvh w-full hero-grid-bg relative z-10 flex flex-col items-center justify-center text-white px-4 overflow-hidden ">
                 <div className="flex items-center md:justify-between justify-center w-full max-w-5xl md:mt-20 mt-8 bg-transparent">
-                    <div className="text-left hidden md:block">
-                        <p className="text-4xl font-bold Antonio">20+</p>
-                        <p className="text-sm text-gray-300 Poppins mt-px">Awards</p>
+                    <div className="text-left hidden md:block bg-transparent">
+                        <p className="text-6xl bg-transparent font-bold Antonio">20+</p>
+                        <p className="text-sm text-gray-300 Poppins mt-px bg-transparent">Awards</p>
                     </div>
 
                     <div className="text-center bg-transparent ">
                         <p className="text-md bg-transparent uppercase font-bold tracking-wide text-gray-300 text-start Poppins">Junior</p>
                         <h1 className="text-5xl bg-transparent md:text-7xl font-extrabold leading-tight Antonio text-start">
                             Web <br /> Developer
-                        </h1>
+                        </h1>   
                     </div>
 
-                    <div className="text-right hidden md:block">
-                        <p className="text-4xl font-bold Antonio">100+</p>
-                        <p className="text-sm text-gray-300 Poppins mt-px">Projects</p>
+                    <div className="text-right hidden md:block bg-transparent">
+                        <p className="text-6xl bg-transparent font-bold Antonio">100+</p>
+                        <p className="text-sm text-gray-300 Poppins mt-px bg-transparent text-start">Projects</p>
                     </div>
                 </div>
 

@@ -38,13 +38,13 @@ body {
 }
 
 .hero-grid-bg {
-  background-image: url(../../public/herogrid3.svg);
+  background-image: url(/herogrid3.svg);
   background-size: cover;
   background-position: center;
 }
 
 .about-grid-bg {
-  background-image: url(../../public/aboutgrid.svg);
+  background-image: url(/aboutgrid.svg);
   background-size: cover;
   background-position: center;
 }

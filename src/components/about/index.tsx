@@ -60,7 +60,7 @@ export default function AboutSection() {
                             <Link href="https://instagram.com/aryaa.em" className="bg-transparent"><FaSquareInstagram className="bg-transparent" /></Link>
                         </div>
 
-                        <p className="md:w-3/5 mx-10 md:mx-6 text-sm mb-6 mr-6 font-medium text-neutral-800 z-10 bg-transparent text-justify ">
+                        <p className="md:w-1/2 mx-10 md:mx-6 text-sm mb-6 mr-6 font-medium text-neutral-800 z-10 bg-transparent text-justify ">
                             Code, design, and a little bit of chaos—that&apos;s me in a nutshell. I&apos;m a full-stack developer in the making, currently crafting cool things with Next.js, Node.js/Express.js, and Firebase. Whether it&apos;s building a food ordering system, designing sleek web experiences, or debugging at 2 AM, I&apos;m all about pushing limits and creating something awesome. Outside of coding, I&apos;m either diving into tech competitions, exploring new design trends, or trying (and failing) to bulk up while still eating like a programmer. My goal? To build digital solutions that actually make an impact—and to have fun doing it.
                         </p>
 
