@@ -20,13 +20,13 @@ export default function AboutSection() {
 
                 <div className="absolute top-6 right-6 z-[11] bg-transparent Poppins hidden md:block">
                     <Link href="https://instagram.com/aryaa.em" target="_blank" className="text-sm flex items-center gap-2 cursor-pointer font-semibold text-neutral-900 underline bg-transparent underline-offset-4 hover:text-neutral-700 transition">
-                        Let's Connect <span className="inline-block bg-transparent"><MdOutlineArrowOutward className="bg-transparent text-xl teal-text" /></span>
+                        Let&apos;s Connect <span className="inline-block bg-transparent"><MdOutlineArrowOutward className="bg-transparent text-xl teal-text" /></span>
                     </Link>
                 </div>
 
                 <div className="absolute left-6 top-20 z-[11] bg-transparent Poppins block md:hidden">
                     <Link href="https://instagram.com/aryaa.em" target="_blank" className="text-sm flex items-center gap-2 cursor-pointer font-semibold text-neutral-900 underline bg-transparent underline-offset-4 hover:text-neutral-700 transition">
-                        Let's Connect <span className="inline-block bg-transparent"><MdOutlineArrowOutward className="bg-transparent text-xl teal-text" /></span>
+                        Let&apos;s Connect <span className="inline-block bg-transparent"><MdOutlineArrowOutward className="bg-transparent text-xl teal-text" /></span>
                     </Link>
                 </div>
 
