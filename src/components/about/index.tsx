@@ -13,10 +13,10 @@ import { FaSquareInstagram, FaSquareGithub, FaLinkedin, FaSquareXTwitter } from 
 export default function AboutSection() {
     return (
         <>
-            <div className="min-h-dvh w-full border flex items-center my-10 relative secondary-bg rounded-3xl overflow-hidden">
+            <div className="min-h-dvh w-full border flex items-center my-10 relative about-grid-bg secondary-bg rounded-3xl overflow-hidden">
 
                 {/* Grid Background  */}
-                <div className="min-h-dvh w-full about-grid-bg bg-transparent absolute top-0 z-0"></div>
+                {/* <div className="min-h-dvh w-full bg-transparent absolute top-0 z-0"></div> */}
 
                 <div className="absolute top-6 right-6 z-[11] bg-transparent Poppins hidden md:block">
                     <Link href="https://instagram.com/aryaa.em" target="_blank" className="text-sm flex items-center gap-2 cursor-pointer font-semibold text-neutral-900 underline bg-transparent underline-offset-4 hover:text-neutral-700 transition">
@@ -47,7 +47,7 @@ export default function AboutSection() {
                             alt="About Me"
                             width={400}
                             height={200}
-                            className="rounded-xl object-cover object-center h-full custom-shadow"
+                            className="rounded-xl object-cover object-center h-full w-full custom-shadow"
                             priority
                         />
                     </div>

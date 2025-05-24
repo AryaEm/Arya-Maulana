@@ -6,9 +6,9 @@ export default function HeroSection() {
     return (
         <>
             {/* Grid Background  */}
-            <div className="min-h-dvh w-full hero-grid-bg absolute z-0"></div>
+            {/* <div className="min-h-dvh w-full hero-grid-bg absolute z-0"></div>x  */}
 
-            <div className="min-h-dvh w-full bg-transparent relative z-10 flex flex-col items-center justify-center text-white px-4 overflow-hidden ">
+            <div className="min-h-dvh w-full hero-grid-bg relative z-10 flex flex-col items-center justify-center text-white px-4 overflow-hidden ">
                 <div className="flex items-center md:justify-between justify-center w-full max-w-5xl md:mt-20 mt-8 bg-transparent">
                     <div className="text-left hidden md:block">
                         <p className="text-4xl font-bold Antonio">20+</p>
