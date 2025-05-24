@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&family=Caprasimo&family=Fruktur:ital@0;1&family=Love+Light&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  background-color: #202020;
+}
+
+html,
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #41b3a2 transparent;
+}
+
+/* font header 2 */
+.Antonio {
+  font-family: "Antonio", sans-serif;
+}
+
+/* font header */
+.Anton {
+  font-family: "Anton", sans-serif;
+}
+
+/* body font */
+.Poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-primary {
+  background-color: #202020;
+}
+
+.secondary-bg {
+  background-color: #fbf7f4;
+}
+
+.hero-grid-bg {
+  background-image: url(../../public/herogrid3.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.about-grid-bg {
+  background-image: url(../../public/aboutgrid.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.teal-border {
+  border: 1px solid #41b3a2;
+}
+
+.teal-text {
+  color: #41b3a2;
+}
+
+.custom-shadow {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.text-about-grad {
+ color: #202020; 
+ background-image: linear-gradient(155deg, #202020 35%, #20202032 100%); 
+ background-clip: text; 
+ -webkit-background-clip: text; 
+ -webkit-text-fill-color: transparent;
+}
