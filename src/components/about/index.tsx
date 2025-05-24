@@ -13,7 +13,7 @@ import { FaSquareInstagram, FaSquareGithub, FaLinkedin, FaSquareXTwitter } from 
 export default function AboutSection() {
     return (
         <>
-            <div className="min-h-dvh w-full border flex items-center my-10 relative about-grid-bg secondary-bg rounded-3xl overflow-hidden">
+            <section className="min-h-dvh w-full border flex items-center my-10 relative about-grid-bg secondary-bg rounded-3xl overflow-hidden">
 
                 {/* Grid Background  */}
                 {/* <div className="min-h-dvh w-full bg-transparent absolute top-0 z-0"></div> */}
@@ -55,9 +55,9 @@ export default function AboutSection() {
                     <div className="h-1/2 bg-transparent flex md:flex-row flex-col-reverse md:items-end justify-between ">
                         <div className="flex items-center gap-4 text-2xl text-neutral-900 z-10 mt-4 bg-transparent ml-6 mb-6">
                             <Link href="#" className="bg-transparent"><FaSquareXTwitter className="bg-transparent" /></Link>
-                            <Link href="https://github.com/AryaEm" className="bg-transparent"><FaSquareGithub className="bg-transparent" /></Link>
+                            <Link target="_blank" href="https://github.com/AryaEm" className="bg-transparent"><FaSquareGithub className="bg-transparent" /></Link>
                             <Link href="#" className="bg-transparent"><FaLinkedin className="bg-transparent" /></Link>
-                            <Link href="https://instagram.com/aryaa.em" className="bg-transparent"><FaSquareInstagram className="bg-transparent" /></Link>
+                            <Link target="_blank" href="https://instagram.com/aryaa.em" className="bg-transparent"><FaSquareInstagram className="bg-transparent" /></Link>
                         </div>
 
                         <p className="md:w-1/2 mx-10 md:mx-6 text-sm mb-6 mr-6 font-medium text-neutral-800 z-10 bg-transparent text-justify ">
@@ -67,7 +67,7 @@ export default function AboutSection() {
                     </div>
                 </div>
 
-            </div>
+            </section>
         </>
     )
 }
