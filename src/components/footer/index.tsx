@@ -16,7 +16,7 @@ export default function FooterSection() {
 
             <AnimatedInView y={40} delay={0.2} className="text-center z-10 bg-transparent md:w-1/4 w-2/4">
                 <h1 className="text-7xl md:text-8xl tracking-wide font-extrabold text-white Anton leading-tight text-start bg-transparent">
-                    Let's<br />
+                    Let&apos;s<br />
                     <span className="block bg-transparent text-end">Get In</span>
                     Touch
                 </h1>

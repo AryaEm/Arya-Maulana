@@ -2,7 +2,7 @@
 
 import { BiSolidRightTopArrowCircle } from "react-icons/bi";
 import Link from "next/link";
-import { motion, useAnimation } from "framer-motion";
+import { motion, useAnimation, Variants } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
@@ -20,7 +20,7 @@ const projects: Project[] = [
 ];
 
 export default function ProjectSection() {
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, x: 50 },
     visible: {
       opacity: 1,
@@ -55,8 +55,17 @@ export default function ProjectSection() {
   );
 }
 
+// Tipe props ProjectItem
+type ProjectItemProps = {
+  title: string;
+  url: string;
+  justify: string;
+  delay: number;
+  variants: Variants;
+};
+
 // Komponen untuk satu project
-function ProjectItem({ title, url, justify, delay, variants }: any) {
+function ProjectItem({ title, url, justify, delay, variants }: ProjectItemProps) {
   const controls = useAnimation();
   const [ref, inView] = useInView({ triggerOnce: false, threshold: 0.3 });
 
