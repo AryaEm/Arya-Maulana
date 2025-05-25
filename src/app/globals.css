@@ -49,6 +49,12 @@ body {
   background-position: center;
 }
 
+.footer-grid-bg {
+  background-image: url(/footergrid.svg);
+  background-size: cover;
+  background-position: center;
+}
+
 .teal-border {
   border: 1px solid #41b3a2;
 }
@@ -61,18 +67,22 @@ body {
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
+.custom-shadow2 {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
 .text-about-grad {
- color: #202020; 
- background-image: linear-gradient(155deg, #202020 35%, #20202032 100%); 
- background-clip: text; 
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
+  color: #202020;
+  background-image: linear-gradient(155deg, #202020 35%, #20202032 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .teal-blur {
   background-color: #41b3a2b3;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
-  filter: blur(180px);
+  filter: blur(130px);
 }
