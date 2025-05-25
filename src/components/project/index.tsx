@@ -12,8 +12,8 @@ type Project = {
 };
 
 const projects: Project[] = [
-  { title: "PORTFOLIO", url: "https://github.com/AryaEm/Arya-Maulana" },
-  { title: "SPOTIFY CLONE", url: "#" },
+  { title: "PERSONAL WEBSITE", url: "https://github.com/AryaEm/Arya-Maulana" },
+  { title: "SPOTIFY CLONE", url: "https://github.com/AryaEm/spotify-clone" },
   { title: "ZENITH WEB", url: "https://github.com/AryaEm/zenith-web" },
   { title: "VIRTUAL MUSEUM", url: "https://github.com/AryaEm/Invention-Udayana" },
   { title: "ZENITH API", url: "https://github.com/AryaEm/Zenithdb" },

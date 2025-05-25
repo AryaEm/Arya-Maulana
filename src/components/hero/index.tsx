@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Arya from "../../../public/arya.jpg";
+import Arya from "../../../public/profil.jpg";
 import AnimatedInView from "./animated";
 import { motion } from "framer-motion";
 
@@ -57,7 +57,7 @@ export default function HeroSection() {
                     <Image
                         src={Arya}
                         alt="Arya Maulana"
-                        className="h-full w-full object-cover teal-border rounded-xl relative z[11] teal-border"
+                        className="h-full w-full object-cover teal-border rounded-xl relative z[11] teal-border "
                     />
                 </motion.div>
             </AnimatedInView>
