@@ -60,7 +60,7 @@ type ProjectItemProps = {
   title: string;
   url: string;
   justify: string;
-  delay: number;
+  delay: number; 
   variants: Variants;
 };
 
